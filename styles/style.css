@@ -15,7 +15,7 @@
 
 .header {
   block-size: 100vh;
-  min-block-size: 613px;
+  min-block-size: 768px;
   display: grid;
   grid-template-rows: min-content min-content 1fr;
   position: relative;
@@ -136,7 +136,7 @@
 }
 
 .section {
-  margin: 45px 20px 80px;
+  margin: 60px 20px 80px;
   display: flex;
   justify-content: center;
 }
