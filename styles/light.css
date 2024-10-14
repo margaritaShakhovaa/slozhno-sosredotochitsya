@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root .theme_light {
+.page.theme_light {
   --bg-color: #ffc2e6;
   --subtitle-color: #353430;
   --title-color: #ffc2e6;
@@ -13,14 +13,8 @@
   --decor-color: #353430;
   --shadow-color: #ff0070;
   --link-border: rgba(53, 52, 48, 0.4);
-}
-
-.page.theme_light {
-  background-image: url('../images/cover-image-light.png');
-}
-
-.page.theme_light .decoration {
-  display: none;
+  --bg-image: url('../images/cover-image-light.png');
+  --decor-item: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -33,5 +27,8 @@
     --decor-color: #353430;
     --shadow-color: #ff0070;
     --link-border: rgba(53, 52, 48, 0.4);
+    --bg-image: url('../images/cover-image-light.png');
+    --decor-item: none;
   }
 }
+

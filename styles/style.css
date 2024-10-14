@@ -6,7 +6,7 @@
   font-family: var(--main-font), monospace;
   font-size: 18px;
   font-weight: 400;
-  background-image: url('../images/cover-image-dark.png');
+  background-image: var(--bg-image);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 
 .decoration {
   position: absolute;
-  visibility: visible;
+  display: var(--decor-item);
   inset-inline-end: 1px;
 }
 

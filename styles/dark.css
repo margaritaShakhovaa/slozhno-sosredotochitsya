@@ -13,6 +13,8 @@
   --decor-color: #ff0070;
   --shadow-color: #ff0070;
   --link-border: rgba(255, 0, 115, 0.4);
+  --bg-image: url('../images/cover-image-dark.png');
+  --decor-item: block;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,5 +27,7 @@
     --decor-color: #ff0070;
     --shadow-color: #ff0070;
     --link-border: rgba(255, 0, 115, 0.4);
+    --bg-image: url('../images/cover-image-dark.png');
+    --decor-item: block;
   }
 }
