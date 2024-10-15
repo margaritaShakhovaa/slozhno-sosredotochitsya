@@ -49,13 +49,16 @@
         </ul>
       </nav>
         <h1 class="title header__title">no focus</h1>
-        <p class="header__subtitle title-decor">Что делать, когда не можешь делать ничего <br>Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
+        <div class="subtitle-box title-decor">
+          <p class="header__subtitle">Что делать, когда не можешь делать ничего</p>
+          <p class="header__subtitle">Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
+        </div>
     </header>
 
     <main class="main">
       <!--1 секция-->
-      <section class="section">
-        <div class="textbox textbox_direction_row">
+      <section class="section section-one">
+        <div class="textbox textbox_direction">
           <h2 class="textbox__title">Почему сосредоточиться так сложно</h2>
           <div class="textbox-list">
             <article class="textbox__list-item textbox__list-item_size_m">
@@ -72,10 +75,10 @@
       </section>
 
       <!--2 секция-->
-      <section class="section">
-        <div class="textbox textbox_direction_column">
+      <section class="section section-two">
+        <div class="textbox textbox_direction">
           <h2 class="textbox__title">Что снижает концентрацию внимания?</h2>
-          <div class="textbox-list textbox-list_direction_row">
+          <div class="textbox-list textbox-list_direction">
             <article class="textbox__list-item textbox__list-item_size_s">
               <h3 class="textbox__subtitle title-decor">Многозадачность</h3>
               <p class="textbox__text">Как концентрация может снижаться из-за… концентрации? Любая стрессовая ситуация (и резко меняющийся мир в целом) заставляет наш мозг постоянно «сканировать» окружающую среду на предмет опасности. Например, читать новости вместо работы. Но быть собранными всё время — невозможно. Концентрация — мышца, и она может не выдержать, если не давать ей отдохнуть.</p>
@@ -93,8 +96,8 @@
       </section>
 
       <!--3 секция-->
-      <section class="section">
-        <div class="textbox textbox_direction_row">
+      <section class="section section-three">
+        <div class="textbox textbox_direction">
           <h2 class="textbox__title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
           <div class="textbox-list">
             <h3 class="textbox__subtitle title-decor">5 простых (на самом деле не очень) советов</h3>
@@ -126,47 +129,47 @@
       <section class="section">
         <div class="gallery">
           <h3 class="textbox__subtitle title-decor">А можно в картинках?</h3>
-          <div class="gallery__box">
-            <div class="gallery__item gallery__item-one">
+          <ul class="gallery__box">
+            <li class="gallery__item gallery__item-one">
               <picture>
                 <source srcset="./images/sunset.avif" type="image/avif">
                 <source srcset="./images/sunset.webp" type="image/webp">
                 <img class="gallery__image" src="./images/sunset.png" loading="lazy" alt="Закат? небо и облака">
               </picture>
-            </div>
+            </li>
 
-            <div class="gallery__item gallery__item-two">
+            <li class="gallery__item gallery__item-two">
               <picture>
                 <source srcset="./images/ice-cream.avif" type="image/avif">
                 <source srcset="./images/ice-cream.webp" type="image/webp">
                 <img class="gallery__image" src="./images/ice-cream.png" loading="lazy" alt="Мороженое из котиков">
               </picture>
-            </div>
+            </li>
 
-            <div class="gallery__item gallery__item-three">
+            <li class="gallery__item gallery__item-three">
               <picture>
                 <source srcset="./images/tape.avif" type="image/avif">
                 <source srcset="./images/tape.webp" type="image/webp">
                 <img class="gallery__image" src="./images/tape.png" loading="lazy" alt="Кассета, курсор, часы">
               </picture>
-            </div>
+            </li>
 
-            <div class="gallery__item gallery__item-four">
+            <li class="gallery__item gallery__item-four">
               <picture>
                 <source srcset="./images/books.avif" type="image/avif">
                 <source srcset="./images/books.webp" type="image/webp">
                 <img class="gallery__image" src="./images/books.png" loading="lazy" alt="Стопка книг и чашка">
               </picture>
-            </div>
+            </li>
 
-            <div class="gallery__item gallery__item-five">
+            <li class="gallery__item gallery__item-five">
               <picture>
                 <source srcset="./images/street.avif" type="image/avif">
                 <source srcset="./images/street.webp" type="image/webp">
                 <img class="gallery__image" src="./images/street.png" loading="lazy" alt="Улица и дома">
               </picture>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
