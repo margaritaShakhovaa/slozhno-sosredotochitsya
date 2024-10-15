@@ -149,17 +149,17 @@
   display: flex;
 }
 
-.section-one .textbox_direction {
+.section-why .textbox_direction {
   flex-direction: row;
   gap: 20px;
 }
 
-.section-two .textbox_direction {
+.section-what .textbox_direction {
   max-inline-size: 984px;
   flex-direction: column;
 }
 
-.section-three .textbox_direction {
+.section-advice .textbox_direction {
   flex-direction: row;
   gap: 20px;
 }
@@ -281,7 +281,7 @@
 }
 
 @media (width < 1023px) {
-  .section-three .textbox-list_direction {
+  .section-advice .textbox-list_direction {
     flex-direction: column;
   }
 
@@ -371,7 +371,7 @@
 }
 
 @media (width <= 670px) {
-  .section-one .textbox_direction {
+  .section-what .textbox_direction {
     flex-direction: column;
   }
 
@@ -478,7 +478,7 @@
     margin: 40px 10px 49px;
   }
 
-  .section-three .textbox_direction {
+  .section-advice .textbox_direction {
     flex-direction: column;
   }
 
